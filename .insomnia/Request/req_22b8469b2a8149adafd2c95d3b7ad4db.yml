@@ -1,30 +1,25 @@
-_id: req_2781a68b669641eeb95c8054092ff5ea
+_id: req_22b8469b2a8149adafd2c95d3b7ad4db
 type: Request
 parentId: wrk_bf9e1fcd89b146318ca5f39cb694acb8
-modified: 1684958805321
-created: 1684957107178
-url: https://httpbin.org/get
-name: GET request using insomnia
+modified: 1684959249396
+created: 1684959197683
+url: https://httpbin.org/delete
+name: DELETE request using insomnia
 description: ""
-method: GET
+method: DELETE
 body:
   mimeType: multipart/form-data
   params:
-    - id: pair_f85fc089837f41fcafab1308511d5d73
+    - id: pair_3247818648c8456ca42b49ada503134e
       name: title
-      value: Lord of the Rings
-      description: ""
-      disabled: true
-    - id: pair_c950b36250a24fc295614f1c66e87c1b
-      name: author
-      value: JRR Tolkien
+      value: blog
       description: ""
 parameters: []
 headers:
   - name: Content-Type
     value: multipart/form-data
 authentication: {}
-metaSortKey: -1684957107179
+metaSortKey: -1684959197683
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

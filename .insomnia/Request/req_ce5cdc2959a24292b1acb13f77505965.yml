@@ -1,30 +1,25 @@
-_id: req_2781a68b669641eeb95c8054092ff5ea
+_id: req_ce5cdc2959a24292b1acb13f77505965
 type: Request
 parentId: wrk_bf9e1fcd89b146318ca5f39cb694acb8
-modified: 1684958805321
-created: 1684957107178
-url: https://httpbin.org/get
-name: GET request using insomnia
+modified: 1684958984339
+created: 1684958863154
+url: https://httpbin.org/post
+name: POST request using insomnia
 description: ""
-method: GET
+method: POST
 body:
   mimeType: multipart/form-data
   params:
-    - id: pair_f85fc089837f41fcafab1308511d5d73
+    - id: pair_79b2ff4a02794febb11371cc55d50b8e
       name: title
-      value: Lord of the Rings
-      description: ""
-      disabled: true
-    - id: pair_c950b36250a24fc295614f1c66e87c1b
-      name: author
-      value: JRR Tolkien
+      value: blog
       description: ""
 parameters: []
 headers:
   - name: Content-Type
     value: multipart/form-data
 authentication: {}
-metaSortKey: -1684957107179
+metaSortKey: -1684958863154
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
