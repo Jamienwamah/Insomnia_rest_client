@@ -1,7 +1,7 @@
 _id: req_22b8469b2a8149adafd2c95d3b7ad4db
 type: Request
 parentId: wrk_bf9e1fcd89b146318ca5f39cb694acb8
-modified: 1684959370594
+modified: 1684959927134
 created: 1684959197683
 url: https://httpbin.org/delete
 name: DELETE request using insomnia
@@ -17,6 +17,10 @@ body:
     - id: pair_95e444e810dc42609ce4719d21ba784d
       name: actor
       value: Jason
+      description: ""
+    - id: pair_b8bb078906e84eae973eba727b41ecb7
+      name: name
+      value: Jack Taylor
       description: ""
 parameters: []
 headers:
