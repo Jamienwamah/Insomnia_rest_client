@@ -1,7 +1,7 @@
 _id: req_22b8469b2a8149adafd2c95d3b7ad4db
 type: Request
 parentId: wrk_bf9e1fcd89b146318ca5f39cb694acb8
-modified: 1684959249396
+modified: 1684959370594
 created: 1684959197683
 url: https://httpbin.org/delete
 name: DELETE request using insomnia
@@ -13,6 +13,10 @@ body:
     - id: pair_3247818648c8456ca42b49ada503134e
       name: title
       value: blog
+      description: ""
+    - id: pair_95e444e810dc42609ce4719d21ba784d
+      name: actor
+      value: Jason
       description: ""
 parameters: []
 headers:
