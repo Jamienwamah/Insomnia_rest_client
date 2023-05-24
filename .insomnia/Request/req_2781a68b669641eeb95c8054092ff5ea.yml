@@ -1,0 +1,29 @@
+_id: req_2781a68b669641eeb95c8054092ff5ea
+type: Request
+parentId: wrk_bf9e1fcd89b146318ca5f39cb694acb8
+modified: 1684957910378
+created: 1684957107178
+url: https://httpbin.org/get
+name: GET request using insomnia
+description: ""
+method: GET
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_f85fc089837f41fcafab1308511d5d73
+      name: title
+      value: Lord of the Rings
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication: {}
+metaSortKey: -1684957107179
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
