@@ -1,0 +1,34 @@
+_id: req_fa9026a8e7974bddb96414d7476e8153
+type: Request
+parentId: wrk_bf9e1fcd89b146318ca5f39cb694acb8
+modified: 1684983301078
+created: 1684982921508
+url: https://httpbin.org/post
+name: POST using JSON
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title": "Lord Of The Rings",
+    	"author": "JRR Tolkien",
+    	"Published": {
+    		"Yead": 1954,
+    		"Month": "July",
+    		"Day": 29
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1684982921508
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
