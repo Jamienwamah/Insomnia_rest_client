@@ -1,0 +1,21 @@
+_id: req_d59fca00113a4168b9df768d9f7a161f
+type: Request
+parentId: wrk_bf9e1fcd89b146318ca5f39cb694acb8
+modified: 1685378892994
+created: 1685378414463
+url: 127.0.0.1:8000/
+name: DRF Testing
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1685378414463
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

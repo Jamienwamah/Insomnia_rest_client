@@ -1,28 +1,23 @@
 _id: req_fa9026a8e7974bddb96414d7476e8153
 type: Request
 parentId: wrk_bf9e1fcd89b146318ca5f39cb694acb8
-modified: 1684983301078
+modified: 1685230435618
 created: 1684982921508
-url: https://httpbin.org/post
+url: https://127.0.0.1:8000/api/menu-items/1
 name: POST using JSON
 description: ""
-method: POST
+method: GET
 body:
-  mimeType: application/json
-  text: |-
-    {
-    	"title": "Lord Of The Rings",
-    	"author": "JRR Tolkien",
-    	"Published": {
-    		"Yead": 1954,
-    		"Month": "July",
-    		"Day": 29
-    	}
-    }
+  mimeType: multipart/form-data
+  params:
+    - id: pair_59e6c97a5c6d40faaaaa8e017bdde67a
+      name: Accept
+      value: application/json
+      description: ""
 parameters: []
 headers:
   - name: Content-Type
-    value: application/json
+    value: multipart/form-data
 authentication: {}
 metaSortKey: -1684982921508
 isPrivate: false
